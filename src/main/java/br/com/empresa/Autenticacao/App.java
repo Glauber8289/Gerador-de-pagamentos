@@ -16,7 +16,8 @@ import javax.net.ssl.SSLSocketFactory;
 public class App 
 {
     public static void main( String[] args )throws Exception {
-    	String client_id = "YOUR-CLIENT-ID";
+    	//Colocando as credenciais
+        String client_id = "YOUR-CLIENT-ID";
         String client_secret = "YOUR-CLIENT-SECRET";;
         String basicAuth = Base64.getEncoder().encodeToString(((client_id+':'+client_secret).getBytes()));
       
